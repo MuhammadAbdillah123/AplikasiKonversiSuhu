@@ -23,7 +23,7 @@ public class KonversiSuhuHelper {
                 if (toScale.equals("Kelvin")) return value * 5/4 + 273.15;
             }
         }
-        return value; // Tidak ada konversi jika skala sama
+        return value; 
     }
 
 }
