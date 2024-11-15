@@ -145,11 +145,10 @@ public class Tugas2 extends javax.swing.JFrame {
             double inputValue = Double.parseDouble(jTextField1.getText());
             String fromScale, toScale;
 
-            // Cek arah konversi berdasarkan radio button yang dipilih
-            if (jRadioButton1.isSelected()) {  // kiri ke kanan
+            if (jRadioButton1.isSelected()) {  
                 fromScale = (String) jComboBox1.getSelectedItem();
                 toScale = (String) jComboBox2.getSelectedItem();
-            } else if (jRadioButton2.isSelected()) {  // kanan ke kiri
+            } else if (jRadioButton2.isSelected()) {  
                 fromScale = (String) jComboBox2.getSelectedItem();
                 toScale = (String) jComboBox1.getSelectedItem();
             } else {
