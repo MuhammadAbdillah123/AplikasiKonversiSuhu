@@ -148,7 +148,7 @@ public class Tugas2 extends javax.swing.JFrame {
             if (jRadioButton1.isSelected()) {  
                 fromScale = (String) jComboBox1.getSelectedItem();
                 toScale = (String) jComboBox2.getSelectedItem();
-            } else if (jRadioButton2.isSelected()) {  
+            } else if (jRadioButton2.isSelected()) { 
                 fromScale = (String) jComboBox2.getSelectedItem();
                 toScale = (String) jComboBox1.getSelectedItem();
             } else {
