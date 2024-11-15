@@ -103,7 +103,7 @@ public class Tugas2 extends javax.swing.JFrame {
                     .addComponent(jRadioButton1)
                     .addComponent(jRadioButton2))
                 .addGap(18, 18, 18)
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 22, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -115,24 +115,24 @@ public class Tugas2 extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(102, 255, 204));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
         jLabel1.setText("Aplikasi Konversi Suhu");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(79, 79, 79)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(70, Short.MAX_VALUE)
                 .addComponent(jLabel1)
-                .addContainerGap(100, Short.MAX_VALUE))
+                .addGap(61, 61, 61))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(39, 39, 39)
+                .addGap(37, 37, 37)
                 .addComponent(jLabel1)
-                .addContainerGap(45, Short.MAX_VALUE))
+                .addContainerGap(47, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_START);
